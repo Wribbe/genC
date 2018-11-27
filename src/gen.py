@@ -3,6 +3,8 @@
 import sys
 import re
 
+import sqlite3
+
 str_indent=2*' '
 
 alph = list("abcdefghijklmnopqrstuvwxyz")
