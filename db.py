@@ -70,7 +70,7 @@ def init(schema_sql, out="", db_name=""):
     out = "{}{}".format(out,fend_db)
 
   if not db_name:
-    db_name = schema_sql.replace(fend_schema,"")
+    db_name = os.path.basename(schema_sql.replace(fend_schema,""))
 
   if not path_get_db(db_name):
     insert(handles.main, "INSERT INTO db (name, path) VALUES ({});", (db_name, out))
