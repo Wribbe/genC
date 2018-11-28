@@ -2,3 +2,4 @@ bin
 gen
 *.sqlite3
 dbs
+**/__pycache__

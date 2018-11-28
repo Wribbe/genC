@@ -7,9 +7,13 @@ import sqlite3
 import types
 
 
+import utils
+
+
 fend_schema = ".sql"
 fend_db = ".sqlite3"
 
+DIRS = utils.resolve_dirs_from_makefile()
 
 sql_main = """
 DROP TABLE IF EXISTS db;
