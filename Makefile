@@ -1,19 +1,26 @@
 DIR_GEN := gen
-DIR_SCR := src
+DIR_SRC := src
 DIR_BIN := bin
+DIR_DBS := dbs
+DIR_SRC_SQL := $(DIR_SRC)/sql
 
-DIRS := $(DIR_GEN) $(DIR_SRC) $(DIR_BIN)
+DIRS := $(DIR_GEN) $(DIR_SRC) $(DIR_BIN) $(DIR_DBS)
 
-C_FILES := $(patsubst %.py,$(DIR_GEN)/%.c,$(notdir $(wildcard $(DIR_SCR)/*.py)))
+C_FILES := $(patsubst %.py,$(DIR_GEN)/%.c,$(notdir $(wildcard $(DIR_SRC)/*.py)))
 BINS :=  $(patsubst %.c,$(DIR_BIN)/%,$(notdir $(C_FILES)))
+SQL_SCHEMAS := $(wildcard $(DIR_SRC_SQL)/*.sql)
+DBS := $(patsubst %.sql,$(DIR_DBS)/%.sqlite3,$(notdir $(SQL_SCHEMAS)))
 
-all: $(C_FILES) $(BINS) | $(DIRS)
+all: $(C_FILES) $(BINS) $(DBS) | $(DIRS)
 
-$(DIR_GEN)/%.c : $(DIR_SCR)/%.py
+$(DIR_GEN)/%.c : $(DIR_SRC)/%.py
 	./$^ > $@
 
 $(DIR_BIN)/% : $(DIR_GEN)/%.c
 	gcc $^ -o $@
+
+$(DIR_DBS)/%.sqlite3 : $(DIR_SRC_SQL)/%.sql
+	./db.py init $^ -o $@
 
 $(DIRS):
 	@mkdir $@
