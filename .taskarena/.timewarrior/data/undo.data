@@ -1,0 +1,24 @@
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181128T091542Z","tags":["- Change db-name handle to not include dir-path.","bug"]}
+txn:
+  type: interval
+  before: {"start":"20181128T091542Z","tags":["- Change db-name handle to not include dir-path.","bug"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181128T091542Z","end":"20181128T092548Z","tags":["- Change db-name handle to not include dir-path.","bug"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181128T093207Z","tags":["- Read dirs from Makefile.","feature"]}
+txn:
+  type: interval
+  before: {"start":"20181128T093207Z","tags":["- Read dirs from Makefile.","feature"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181128T093207Z","end":"20181128T101701Z","tags":["- Read dirs from Makefile.","feature"]}

@@ -1,4 +1,4 @@
-# [Created by task 2.5.1 11/10/2018 01:04:40]
+# [Created by task 2.5.1 11/28/2018 10:15:12]
 # Taskwarrior program configuration file.
 # For more documentation, see http://taskwarrior.org or try 'man task', 'man task-color',
 # 'man task-sync' or 'man taskrc'
@@ -11,7 +11,7 @@
 # Use the command 'task show' to see all defaults and overrides
 
 # Files
-data.location=/home/steff/c/dbdir/.tasks
+data.location=/home/steff/genC/.taskarena/.tasks
 
 # Color theme (uncomment one to use)
 #include /usr/share/doc/task/rc/light-16.theme

@@ -1,0 +1,2 @@
+inc 20181128T091542Z - 20181128T092548Z # "- Change db-name handle to not include dir-path." bug
+inc 20181128T093207Z - 20181128T101701Z # "- Read dirs from Makefile." feature

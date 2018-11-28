@@ -1,0 +1,7 @@
+{"description":"- Change db-name handle to not include dir-path.","end":"20181128T091534Z","entry":"20181128T091534Z","modified":"20181128T091534Z","status":"completed","tags":["bug"],"uuid":"428f050f-630b-47c8-84ec-ac6b1789c0fe"}
+{"description":"- Change db-name handle to not include dir-path.","entry":"20181128T091534Z","modified":"20181128T091539Z","status":"pending","tags":["bug"],"uuid":"428f050f-630b-47c8-84ec-ac6b1789c0fe"}
+{"description":"- Change db-name handle to not include dir-path.","entry":"20181128T091534Z","modified":"20181128T091542Z","start":"20181128T091542Z","status":"pending","tags":["bug"],"uuid":"428f050f-630b-47c8-84ec-ac6b1789c0fe"}
+{"description":"- Change db-name handle to not include dir-path.","end":"20181128T092548Z","entry":"20181128T091534Z","modified":"20181128T092548Z","status":"completed","tags":["bug"],"uuid":"428f050f-630b-47c8-84ec-ac6b1789c0fe"}
+{"description":"- Read dirs from Makefile.","entry":"20181128T093202Z","modified":"20181128T093202Z","status":"pending","tags":["feature"],"uuid":"ed12af5e-716c-4e02-9bd5-8b688bbaece3"}
+{"description":"- Read dirs from Makefile.","entry":"20181128T093202Z","modified":"20181128T093207Z","start":"20181128T093207Z","status":"pending","tags":["feature"],"uuid":"ed12af5e-716c-4e02-9bd5-8b688bbaece3"}
+{"description":"- Read dirs from Makefile.","end":"20181128T101701Z","entry":"20181128T093202Z","modified":"20181128T101701Z","status":"completed","tags":["feature"],"uuid":"ed12af5e-716c-4e02-9bd5-8b688bbaece3"}
