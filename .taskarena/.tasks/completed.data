@@ -1,2 +1,3 @@
+[description:"- Store main db in db dir." end:"1543477486" entry:"1543477396" modified:"1543477486" status:"completed" tags:"feature" uuid:"bc340a34-dc23-4137-a874-320de6f6877d"]
 [description:"- Read dirs from Makefile." end:"1543400221" entry:"1543397522" modified:"1543400221" status:"completed" tags:"feature" uuid:"ed12af5e-716c-4e02-9bd5-8b688bbaece3"]
 [description:"- Change db-name handle to not include dir-path." end:"1543397148" entry:"1543396534" modified:"1543397148" status:"completed" tags:"bug" uuid:"428f050f-630b-47c8-84ec-ac6b1789c0fe"]

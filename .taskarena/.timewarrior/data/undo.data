@@ -22,3 +22,15 @@ txn:
   type: interval
   before: 
   after: {"start":"20181128T093207Z","end":"20181128T101701Z","tags":["- Read dirs from Makefile.","feature"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181129T074320Z","tags":["- Store main db in db dir.","feature"]}
+txn:
+  type: interval
+  before: {"start":"20181129T074320Z","tags":["- Store main db in db dir.","feature"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181129T074320Z","end":"20181129T074446Z","tags":["- Store main db in db dir.","feature"]}

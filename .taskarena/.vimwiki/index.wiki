@@ -5,3 +5,4 @@
 == Features || +feature ==
 
 * [X] - Read dirs from Makefile.  #ed12af5e
+* [X] - Store main db in db dir.  #bc340a34

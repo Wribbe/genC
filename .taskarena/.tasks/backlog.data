@@ -5,3 +5,6 @@
 {"description":"- Read dirs from Makefile.","entry":"20181128T093202Z","modified":"20181128T093202Z","status":"pending","tags":["feature"],"uuid":"ed12af5e-716c-4e02-9bd5-8b688bbaece3"}
 {"description":"- Read dirs from Makefile.","entry":"20181128T093202Z","modified":"20181128T093207Z","start":"20181128T093207Z","status":"pending","tags":["feature"],"uuid":"ed12af5e-716c-4e02-9bd5-8b688bbaece3"}
 {"description":"- Read dirs from Makefile.","end":"20181128T101701Z","entry":"20181128T093202Z","modified":"20181128T101701Z","status":"completed","tags":["feature"],"uuid":"ed12af5e-716c-4e02-9bd5-8b688bbaece3"}
+{"description":"- Store main db in db dir.","entry":"20181129T074316Z","modified":"20181129T074316Z","status":"pending","tags":["feature"],"uuid":"bc340a34-dc23-4137-a874-320de6f6877d"}
+{"description":"- Store main db in db dir.","entry":"20181129T074316Z","modified":"20181129T074320Z","start":"20181129T074319Z","status":"pending","tags":["feature"],"uuid":"bc340a34-dc23-4137-a874-320de6f6877d"}
+{"description":"- Store main db in db dir.","end":"20181129T074446Z","entry":"20181129T074316Z","modified":"20181129T074446Z","status":"completed","tags":["feature"],"uuid":"bc340a34-dc23-4137-a874-320de6f6877d"}
