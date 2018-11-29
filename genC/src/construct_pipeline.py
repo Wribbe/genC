@@ -51,12 +51,12 @@ def parse_defines(list_defines):
     # Get argument names.
     argnames = [v.split('=')[0] for v in args.split(',')]
     # Flatten any nestings.
-    argnames = utils.flatten_nesting(','.join(argnames))
+    argnames = utils.flatten_nesting(', '.join(argnames))
 
     # Fill in class format and append to output.
     out.append(fmt.format(
       class_name = name,
-      argument_names = ', '.join(argnames),
+      argument_names = argnames,
     ))
     # Separate each class with 2*linesep.
     out.append("")
