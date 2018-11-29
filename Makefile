@@ -33,7 +33,7 @@ $(DIR_DBS)/%.sqlite3 : $(DIR_SRC_SQL)/%.sql | $(DIR_DBS)
 	./db.py init $^ -o $@
 
 $(DIR_BIN)/%.pipeline : $(DIR_SRC)/%.pipes $(DIR_BIN_UTILS)/construct_pipeline
-	$(filter $(DIR_BIN)%,$^) $(filter %.pipes,$^) -o $@
+	$(filter $(DIR_BIN)%,$^) -o $@ $(filter %.pipes,$^)
 	chmod +x $@
 
 $(DIRS):
