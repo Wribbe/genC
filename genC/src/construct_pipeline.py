@@ -19,10 +19,14 @@ def num_whitespaces(line):
 
 def baseline_indent(text, strip_blank=False):
 
+  # Remove inline comments.
+  lines = [line.split('#',1)[0] if '#' in line else line for line in
+           text.splitlines()]
+
   if strip_blank:
-    lines = [line for line in text.splitlines() if line.strip()]
+    lines = [line for line in lines if line.strip()]
   else:
-    lines = [line for line in text.splitlines()]
+    lines = [line for line in lines]
 
   whitespace = []
 
@@ -33,11 +37,11 @@ def baseline_indent(text, strip_blank=False):
   whitespace = [n-n_min for n in whitespace]
 
   lines = ["{}{}".format(' '*n,line.strip()) for (n,line) in zip(whitespace, lines)]
-  return '\n'.join(lines)
+  return os.linesep.join(lines)
 
 
 def parse_defines(list_defines):
-  list_defines = [(toks) for toks in [l.split(':') for l in list_defines]]
+  list_defines = [(toks) for toks in [l.split(':',1) for l in list_defines]]
   out = ["", ""]
   fmt = """\
     class {class_name}():
@@ -46,7 +50,7 @@ def parse_defines(list_defines):
         {{argument_assignments}}
   """
   fmt = baseline_indent(fmt, strip_blank=True)
-  for name, args in list_defines:
+  for name_def, args in list_defines:
 
     # Get argument names.
     argnames = [v.split('=')[0] for v in args.split(',')]
@@ -60,7 +64,7 @@ def parse_defines(list_defines):
 
     # Fill in class format and append to output.
     out.append(fmt.format(
-      class_name = name,
+      class_name = name_def,
       argument_names = argnames,
     ))
     # Figure out correct indentation and add to the arguments.
@@ -94,18 +98,21 @@ def parse_pipefile(pipefile):
   indent_current = 0
   indent_current_define = 0
   define_stack = []
+
+  def flush_define_stack():
+    definition = re.sub(r'\s+', ' ', ''.join(define_stack))
+    if definition.endswith(','):
+      definition = definition[:-1]
+    defines.append(definition)
+    return (0, [])
+
   for line in lines:
     indent_current = num_whitespaces(line)
 
     # Handle continuation of indented define statements.
     if indent_current_define > 0:
       if indent_current < indent_current_define:
-        indent_current_define = 0
-        definition = re.sub(r'\s+', ' ', ''.join(define_stack))
-        if definition.endswith(','):
-          definition = definition[:-1]
-        defines.append(definition)
-        define_stack = []
+        indent_current_define, define_stack = flush_define_stack()
       else:
         define_stack.append(line)
 
@@ -116,9 +123,12 @@ def parse_pipefile(pipefile):
     elif '->' in line:
       pipelines.append(line)
 
+  if define_stack:
+    flush_define_stack()
+
   # Remove any spaces in defines after ':'.
   defines = ["{}:{}".format(d.replace("define",'').strip(),args.replace(' ',''))
-             for (d,args) in [definition.split(':') for definition in defines]]
+             for (d,args) in [definition.split(':',1) for definition in defines]]
 
   # Parse defines into classes.
   defines = parse_defines(defines)

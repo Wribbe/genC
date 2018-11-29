@@ -12,7 +12,7 @@ DIR_VIRT := $(DIR_PYROOT).virtualenv
 BIN_VIRT := $(DIR_VIRT)/bin/activate
 PY := $(DIR_VIRT)/bin/python
 
-# use objs := $(sources:.c=.o) convention.
+#DEBUG := 1
 
 PERCENT := %
 $(eval DIRS := $(foreach var,$(filter-out %_$(PERCENT)%,$(filter DIR_%,$(shell cat Makefile))),$$($(var))))
@@ -52,6 +52,7 @@ $(DIR_DBS)/%.sqlite3 : $(DIR_SRC_SQL)/%.sql | $(DIR_DBS)
 $(DIR_BIN)/%.pipeline : $(DIR_SRC)/%.pipes $(DIR_BIN_UTILS)/construct_pipeline
 	$(filter $(DIR_BIN)%,$^) -o $@ $(filter %.pipes,$^)
 	chmod +x $@
+	@[ -z $(DEBUG) ] || cat $@
 
 $(BIN_VIRT): setup.py requirements.txt
 	virtualenv $(DIR_VIRT) && source $(BIN_VIRT) && pip install -r requirements.txt
