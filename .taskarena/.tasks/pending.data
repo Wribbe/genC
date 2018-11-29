@@ -1,5 +1,4 @@
 [description:"- Correctly parse defines containing other defines." entry:"1543485180" modified:"1543485180" status:"pending" tags:"todo" uuid:"5a0e0a76-1fa4-4308-9ff1-3f416d73fefb"]
 [description:"- Make pipelines into methods." entry:"1543486235" modified:"1543486241" status:"pending" tags:"todo" uuid:"98a349f4-4cfa-4fed-86e1-9edd05372c63"]
 [depends:"6375d939-ee9c-41ad-845b-23af0293fe60,e94dca52-f0a8-4d22-a35a-a3c393c97ba8,2ad675da-64fb-443d-879f-02a2dd8ce659" description:"- Make definitions into classes." entry:"1543486228" modified:"1543487991" status:"pending" tags:"todo" uuid:"94ce6c34-fa4b-4cea-96ba-818f5f3b4dc8"]
-[description:"- Add attributes in __init__ constructor." entry:"1543487946" modified:"1543498848" status:"pending" tags:"todo" uuid:"e94dca52-f0a8-4d22-a35a-a3c393c97ba8"]
 [description:"- Add attributes to class namespace." entry:"1543487991" modified:"1543487991" status:"pending" tags:"todo" uuid:"2ad675da-64fb-443d-879f-02a2dd8ce659"]

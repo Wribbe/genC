@@ -49,3 +49,4 @@
 {"description":"- Make stub classes with pass.","end":"20181129T104000Z","entry":"20181129T103846Z","modified":"20181129T104000Z","status":"completed","tags":["todo"],"uuid":"6375d939-ee9c-41ad-845b-23af0293fe60"}
 {"description":"- Add attributes in __init__ constructor.","entry":"20181129T103906Z","modified":"20181129T104001Z","start":"20181129T104001Z","status":"pending","tags":["todo"],"uuid":"e94dca52-f0a8-4d22-a35a-a3c393c97ba8"}
 {"description":"- Add attributes in __init__ constructor.","entry":"20181129T103906Z","modified":"20181129T134048Z","status":"pending","tags":["todo"],"uuid":"e94dca52-f0a8-4d22-a35a-a3c393c97ba8"}
+{"description":"- Add attributes in __init__ constructor.","end":"20181129T134443Z","entry":"20181129T103906Z","modified":"20181129T134443Z","status":"completed","tags":["todo"],"uuid":"e94dca52-f0a8-4d22-a35a-a3c393c97ba8"}
