@@ -1,4 +1,6 @@
 [description:"- Correctly parse defines containing other defines." entry:"1543485180" modified:"1543485180" status:"pending" tags:"todo" uuid:"5a0e0a76-1fa4-4308-9ff1-3f416d73fefb"]
 [description:"- Make pipelines into methods." entry:"1543486235" modified:"1543486241" status:"pending" tags:"todo" uuid:"98a349f4-4cfa-4fed-86e1-9edd05372c63"]
-[depends:"6375d939-ee9c-41ad-845b-23af0293fe60,e94dca52-f0a8-4d22-a35a-a3c393c97ba8,2ad675da-64fb-443d-879f-02a2dd8ce659" description:"- Make definitions into classes." entry:"1543486228" modified:"1543487991" status:"pending" tags:"todo" uuid:"94ce6c34-fa4b-4cea-96ba-818f5f3b4dc8"]
-[description:"- Add attributes to class namespace." entry:"1543487991" modified:"1543487991" status:"pending" tags:"todo" uuid:"2ad675da-64fb-443d-879f-02a2dd8ce659"]
+[depends:"6375d939-ee9c-41ad-845b-23af0293fe60,e94dca52-f0a8-4d22-a35a-a3c393c97ba8,2ad675da-64fb-443d-879f-02a2dd8ce659,a6d44fc2-2535-41f2-9ac6-124ed6e13a33,84a55816-d966-499f-a461-256bbdf5c4cc,97ade2e4-e0bb-4302-85cc-f84c1c36893a" description:"- Make definitions into classes." entry:"1543486228" modified:"1543504090" status:"pending" tags:"todo" uuid:"94ce6c34-fa4b-4cea-96ba-818f5f3b4dc8"]
+[description:"- Add attributes to class namespace." entry:"1543487991" modified:"1543504078" start:"1543504078" status:"pending" tags:"todo" uuid:"2ad675da-64fb-443d-879f-02a2dd8ce659"]
+[description:"- Assign values, if any to the namespace variables." entry:"1543504069" modified:"1543504073" status:"pending" tags:"todo" uuid:"84a55816-d966-499f-a461-256bbdf5c4cc"]
+[description:"- Add getattr method to classes." entry:"1543504090" modified:"1543504090" status:"pending" tags:"todo" uuid:"97ade2e4-e0bb-4302-85cc-f84c1c36893a"]

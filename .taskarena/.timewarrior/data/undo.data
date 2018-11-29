@@ -94,3 +94,19 @@ txn:
   type: interval
   before: 
   after: {"start":"20181129T104001Z","end":"20181129T134048Z","tags":["- Add attributes in __init__ constructor.","todo"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181129T150539Z","tags":["- Clean up Makefile with rename-syntax.","feature"]}
+txn:
+  type: interval
+  before: {"start":"20181129T150539Z","tags":["- Clean up Makefile with rename-syntax.","feature"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181129T150539Z","end":"20181129T150554Z","tags":["- Clean up Makefile with rename-syntax.","feature"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181129T150758Z","tags":["- Add attributes to class namespace.","todo"]}

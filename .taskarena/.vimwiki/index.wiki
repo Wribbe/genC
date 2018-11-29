@@ -12,9 +12,11 @@
 * [X] - Write mock main.pipes file #2c0763f4
 * [X] - First-pass parsing of main.pipes files -> section-detection.  #4c44b145
   * [X] - Indentation static offset -> runnable file #9c3b5205
-* [ ] - Make definitions into classes.  #94ce6c34
+* [o] - Make definitions into classes.  #94ce6c34
   * [X] - Make stub classes with pass.  #6375d939
   * [X] - Add attributes in __init__ constructor.  #e94dca52
-  * [ ] - Add attributes to class namespace.  #2ad675da
+  * [S] - Add attributes to class namespace.  #2ad675da
+  * [ ] - Assign values, if any to the namespace variables.  #84a55816
+  * [ ] - Add getattr method to classes.  #97ade2e4
 * [ ] - Make pipelines into methods.  #98a349f4
 * [ ] - Correctly parse defines containing other defines.  #5a0e0a76

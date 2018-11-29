@@ -1,3 +1,5 @@
+[description:"- Resolve duplicate names." end:"1543503968" entry:"1543499105" modified:"1543503968" status:"deleted" tags:"todo" uuid:"a6d44fc2-2535-41f2-9ac6-124ed6e13a33"]
+[description:"- Clean up Makefile with rename-syntax." end:"1543503954" entry:"1543503935" modified:"1543503956" status:"deleted" tags:"feature" uuid:"35f404a9-a178-4bf4-990f-ae2591f5357d"]
 [description:"- Add attributes in __init__ constructor." end:"1543499083" entry:"1543487946" modified:"1543499083" status:"completed" tags:"todo" uuid:"e94dca52-f0a8-4d22-a35a-a3c393c97ba8"]
 [description:"- Make stub classes with pass." end:"1543488000" entry:"1543487926" modified:"1543488000" status:"completed" tags:"todo" uuid:"6375d939-ee9c-41ad-845b-23af0293fe60"]
 [depends:"9c3b5205-f5ad-4c63-a3b9-7c5fe620451b,f8bd9c62-ac6d-4d95-b35c-f414f713e4af,6d6a6a9e-9732-4148-890b-77230b165b80" description:"- First-pass parsing of main.pipes files -> section-detection." end:"1543486208" entry:"1543478859" modified:"1543486208" status:"completed" tags:"todo" uuid:"4c44b145-4f9b-47ed-8286-782b1051690d"]
