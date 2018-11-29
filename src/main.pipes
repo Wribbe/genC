@@ -1,0 +1,26 @@
+# Different pipelines:
+# ====================
+
+  *.txt -> *.txt
+  *.txt -> *.png
+  *.txt -> ({:03d}_*-{}.png, *.jpg)
+
+  data_3D -> *.png
+  (data_3D, *.txt) -> *.txt
+
+# Data definitions.
+# =================
+
+  define point_3D:
+    x = 0,
+    y = 1,
+    z,
+
+  define point_3D_short: x,y=1,z
+
+  define test_short_bundle: a,(b,c,d)=3,e
+
+  define data_3D:
+    points = [point_3D,..] # Repeats forever.
+    bundled_list = [(a,b,[c..]=4),..] # Repeat bundle forever.
+    bundled_dict_list = [{k:v}=("k",4),..]
