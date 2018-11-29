@@ -41,9 +41,9 @@ def parse_defines(list_defines):
   out = ["", ""]
   fmt = """\
     class {class_name}():
-
+      args = types.SimpleNamespace()
       def __init__(self, {argument_names}):
-        pass
+        {{argument_assignments}}
   """
   fmt = baseline_indent(fmt, strip_blank=True)
   for name, args in list_defines:
@@ -51,13 +51,28 @@ def parse_defines(list_defines):
     # Get argument names.
     argnames = [v.split('=')[0] for v in args.split(',')]
     # Flatten any nestings.
-    argnames = utils.flatten_nesting(', '.join(argnames))
+    argnames = utils.flatten_nesting(','.join(argnames))
+
+    # Construct argument assignments.
+    argument_assignments = []
+    for arg_name in argnames.split(','):
+      argument_assignments.append("self.args.{} = {}".format(arg_name, 0))
 
     # Fill in class format and append to output.
     out.append(fmt.format(
       class_name = name,
       argument_names = argnames,
     ))
+    # Figure out correct indentation and add to the arguments.
+    indent = num_whitespaces(out[-1].splitlines()[-1])
+    first_assignment = argument_assignments.pop(0)
+    argument_assignments = ["{}{}".format(' '*indent,arg) for arg
+                            in argument_assignments]
+    argument_assignments.insert(0,first_assignment)
+    # Add arguments to template.
+    out[-1] = out[-1].format(
+      argument_assignments = os.linesep.join(argument_assignments)
+    )
     # Separate each class with 2*linesep.
     out.append("")
     out.append("")
@@ -122,6 +137,8 @@ def main(pipefile, out):
 
   src = """\
   #!/usr/bin/env python3
+
+  import types
 
   {data_section}
 
