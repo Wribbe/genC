@@ -5,8 +5,7 @@ import re
 import sys
 
 import click
-from . import utils
-
+import utils
 
 def num_whitespaces(line):
   num = 0
@@ -52,7 +51,7 @@ def parse_defines(list_defines):
     # Get argument names.
     argnames = [v.split('=')[0] for v in args.split(',')]
     # Flatten any nestings.
-    argnames = flatten_nesting(','.join(argnames))
+    argnames = utils.flatten_nesting(','.join(argnames))
 
     # Fill in class format and append to output.
     out.append(fmt.format(

@@ -52,3 +52,10 @@ def resolve_dirs_from_makefile():
     fmt_error = "Could not resolve all path dir-variables after {} passes!"
     print(fmt_error.format(curr_pass), file=sys.stderr)
   return dir_dict
+
+
+def flatten_nesting(nested_string):
+  symbols_nesting = list("()")
+  for sym in symbols_nesting:
+    nested_string = nested_string.replace(sym, '')
+  return nested_string

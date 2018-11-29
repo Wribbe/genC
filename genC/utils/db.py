@@ -9,7 +9,6 @@ import types
 
 import utils
 
-
 fend_schema = ".sql"
 fend_db = ".sqlite3"
 
