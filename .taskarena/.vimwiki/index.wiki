@@ -6,3 +6,8 @@
 
 * [X] - Read dirs from Makefile.  #ed12af5e
 * [X] - Store main db in db dir.  #bc340a34
+
+== TODO || +todo ==
+
+* [X] - Write mock main.pipes file #2c0763f4
+* [S] - First-pass parsing of main.pipes files -> section-detection.  #4c44b145

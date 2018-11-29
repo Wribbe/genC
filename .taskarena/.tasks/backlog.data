@@ -8,3 +8,10 @@
 {"description":"- Store main db in db dir.","entry":"20181129T074316Z","modified":"20181129T074316Z","status":"pending","tags":["feature"],"uuid":"bc340a34-dc23-4137-a874-320de6f6877d"}
 {"description":"- Store main db in db dir.","entry":"20181129T074316Z","modified":"20181129T074320Z","start":"20181129T074319Z","status":"pending","tags":["feature"],"uuid":"bc340a34-dc23-4137-a874-320de6f6877d"}
 {"description":"- Store main db in db dir.","end":"20181129T074446Z","entry":"20181129T074316Z","modified":"20181129T074446Z","status":"completed","tags":["feature"],"uuid":"bc340a34-dc23-4137-a874-320de6f6877d"}
+{"description":"- Write mock main.pipes.","entry":"20181129T080712Z","modified":"20181129T080712Z","status":"pending","tags":["todo"],"uuid":"2c0763f4-1bf2-4b39-9d2c-e857ec720a19"}
+{"description":"- Write mock main.pipes","entry":"20181129T080712Z","modified":"20181129T080713Z","status":"pending","tags":["todo"],"uuid":"2c0763f4-1bf2-4b39-9d2c-e857ec720a19"}
+{"description":"- Write mock main.pipes file","entry":"20181129T080712Z","modified":"20181129T080719Z","status":"pending","tags":["todo"],"uuid":"2c0763f4-1bf2-4b39-9d2c-e857ec720a19"}
+{"description":"- Write mock main.pipes file","end":"20181129T080721Z","entry":"20181129T080712Z","modified":"20181129T080721Z","status":"completed","tags":["todo"],"uuid":"2c0763f4-1bf2-4b39-9d2c-e857ec720a19"}
+{"description":"- First-pass parsing of main.pipes files -> sections.","entry":"20181129T080739Z","modified":"20181129T080739Z","status":"pending","tags":["todo"],"uuid":"4c44b145-4f9b-47ed-8286-782b1051690d"}
+{"description":"- First-pass parsing of main.pipes files -> section-detection.","entry":"20181129T080739Z","modified":"20181129T080743Z","status":"pending","tags":["todo"],"uuid":"4c44b145-4f9b-47ed-8286-782b1051690d"}
+{"description":"- First-pass parsing of main.pipes files -> section-detection.","entry":"20181129T080739Z","modified":"20181129T080746Z","start":"20181129T080746Z","status":"pending","tags":["todo"],"uuid":"4c44b145-4f9b-47ed-8286-782b1051690d"}

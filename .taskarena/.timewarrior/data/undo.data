@@ -34,3 +34,7 @@ txn:
   type: interval
   before: 
   after: {"start":"20181129T074320Z","end":"20181129T074446Z","tags":["- Store main db in db dir.","feature"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181129T080746Z","tags":["- First-pass parsing of main.pipes files -> section-detection.","todo"]}
