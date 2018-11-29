@@ -38,3 +38,15 @@ txn:
   type: interval
   before: 
   after: {"start":"20181129T080746Z","tags":["- First-pass parsing of main.pipes files -> section-detection.","todo"]}
+txn:
+  type: interval
+  before: {"start":"20181129T080746Z","tags":["- First-pass parsing of main.pipes files -> section-detection.","todo"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181129T080746Z","end":"20181129T090253Z","tags":["- First-pass parsing of main.pipes files -> section-detection.","todo"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181129T090504Z","tags":["- Indentation flat -> runnable file","todo"]}

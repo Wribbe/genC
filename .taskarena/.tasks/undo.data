@@ -61,3 +61,52 @@ time 1543478866
 old [description:"- First-pass parsing of main.pipes files -> section-detection." entry:"1543478859" modified:"1543478863" status:"pending" tags:"todo" uuid:"4c44b145-4f9b-47ed-8286-782b1051690d"]
 new [description:"- First-pass parsing of main.pipes files -> section-detection." entry:"1543478859" modified:"1543478866" start:"1543478866" status:"pending" tags:"todo" uuid:"4c44b145-4f9b-47ed-8286-782b1051690d"]
 ---
+time 1543482173
+old [description:"- First-pass parsing of main.pipes files -> section-detection." entry:"1543478859" modified:"1543478866" start:"1543478866" status:"pending" tags:"todo" uuid:"4c44b145-4f9b-47ed-8286-782b1051690d"]
+new [description:"- First-pass parsing of main.pipes files -> section-detection." end:"1543482173" entry:"1543478859" modified:"1543482173" status:"completed" tags:"todo" uuid:"4c44b145-4f9b-47ed-8286-782b1051690d"]
+---
+time 1543482197
+new [description:"- Print correctly indented and runnable python file from aligned" entry:"1543482197" modified:"1543482197" status:"pending" tags:"todo" uuid:"9c3b5205-f5ad-4c63-a3b9-7c5fe620451b"]
+---
+time 1543482198
+old [description:"- First-pass parsing of main.pipes files -> section-detection." end:"1543482173" entry:"1543478859" modified:"1543482173" status:"completed" tags:"todo" uuid:"4c44b145-4f9b-47ed-8286-782b1051690d"]
+new [depends:"9c3b5205-f5ad-4c63-a3b9-7c5fe620451b" description:"- First-pass parsing of main.pipes files -> section-detection." end:"1543482173" entry:"1543478859" modified:"1543482198" status:"completed" tags:"todo" uuid:"4c44b145-4f9b-47ed-8286-782b1051690d"]
+---
+time 1543482203
+old [depends:"9c3b5205-f5ad-4c63-a3b9-7c5fe620451b" description:"- First-pass parsing of main.pipes files -> section-detection." end:"1543482173" entry:"1543478859" modified:"1543482198" status:"completed" tags:"todo" uuid:"4c44b145-4f9b-47ed-8286-782b1051690d"]
+new [depends:"9c3b5205-f5ad-4c63-a3b9-7c5fe620451b" description:"- First-pass parsing of main.pipes files -> section-detection." entry:"1543478859" modified:"1543482203" status:"pending" tags:"todo" uuid:"4c44b145-4f9b-47ed-8286-782b1051690d"]
+---
+time 1543482240
+old [description:"- Print correctly indented and runnable python file from aligned" entry:"1543482197" modified:"1543482197" status:"pending" tags:"todo" uuid:"9c3b5205-f5ad-4c63-a3b9-7c5fe620451b"]
+new [description:"- Print correctly indented and runnable python file from aligned source" entry:"1543482197" modified:"1543482240" status:"pending" tags:"todo" uuid:"9c3b5205-f5ad-4c63-a3b9-7c5fe620451b"]
+---
+time 1543482240
+new [description:"- Print correctly indented and runnable python file from aligned" entry:"1543482240" modified:"1543482240" status:"pending" tags:"todo" uuid:"f8bd9c62-ac6d-4d95-b35c-f414f713e4af"]
+---
+time 1543482240
+old [depends:"9c3b5205-f5ad-4c63-a3b9-7c5fe620451b" description:"- First-pass parsing of main.pipes files -> section-detection." entry:"1543478859" modified:"1543482203" status:"pending" tags:"todo" uuid:"4c44b145-4f9b-47ed-8286-782b1051690d"]
+new [depends:"9c3b5205-f5ad-4c63-a3b9-7c5fe620451b,f8bd9c62-ac6d-4d95-b35c-f414f713e4af" description:"- First-pass parsing of main.pipes files -> section-detection." entry:"1543478859" modified:"1543482240" status:"pending" tags:"todo" uuid:"4c44b145-4f9b-47ed-8286-782b1051690d"]
+---
+time 1543482271
+old [description:"- Print correctly indented and runnable python file from aligned source" entry:"1543482197" modified:"1543482240" status:"pending" tags:"todo" uuid:"9c3b5205-f5ad-4c63-a3b9-7c5fe620451b"]
+new [description:"- Indentation static offset -> runnable file" entry:"1543482197" modified:"1543482271" status:"pending" tags:"todo" uuid:"9c3b5205-f5ad-4c63-a3b9-7c5fe620451b"]
+---
+time 1543482282
+old [description:"- Print correctly indented and runnable python file from aligned" entry:"1543482240" modified:"1543482240" status:"pending" tags:"todo" uuid:"f8bd9c62-ac6d-4d95-b35c-f414f713e4af"]
+new [description:"- Print correctly indented and runnable python file from aligned" end:"1543482282" entry:"1543482240" modified:"1543482282" status:"deleted" tags:"todo" uuid:"f8bd9c62-ac6d-4d95-b35c-f414f713e4af"]
+---
+time 1543482301
+new [description:"- Indentation flat -> runnable file" entry:"1543482301" modified:"1543482301" status:"pending" tags:"todo" uuid:"6d6a6a9e-9732-4148-890b-77230b165b80"]
+---
+time 1543482301
+old [depends:"9c3b5205-f5ad-4c63-a3b9-7c5fe620451b,f8bd9c62-ac6d-4d95-b35c-f414f713e4af" description:"- First-pass parsing of main.pipes files -> section-detection." entry:"1543478859" modified:"1543482240" status:"pending" tags:"todo" uuid:"4c44b145-4f9b-47ed-8286-782b1051690d"]
+new [depends:"9c3b5205-f5ad-4c63-a3b9-7c5fe620451b,f8bd9c62-ac6d-4d95-b35c-f414f713e4af,6d6a6a9e-9732-4148-890b-77230b165b80" description:"- First-pass parsing of main.pipes files -> section-detection." entry:"1543478859" modified:"1543482301" status:"pending" tags:"todo" uuid:"4c44b145-4f9b-47ed-8286-782b1051690d"]
+---
+time 1543482304
+old [description:"- Indentation static offset -> runnable file" entry:"1543482197" modified:"1543482271" status:"pending" tags:"todo" uuid:"9c3b5205-f5ad-4c63-a3b9-7c5fe620451b"]
+new [description:"- Indentation static offset -> runnable file" end:"1543482304" entry:"1543482197" modified:"1543482304" status:"completed" tags:"todo" uuid:"9c3b5205-f5ad-4c63-a3b9-7c5fe620451b"]
+---
+time 1543482304
+old [description:"- Indentation flat -> runnable file" entry:"1543482301" modified:"1543482301" status:"pending" tags:"todo" uuid:"6d6a6a9e-9732-4148-890b-77230b165b80"]
+new [description:"- Indentation flat -> runnable file" entry:"1543482301" modified:"1543482304" start:"1543482304" status:"pending" tags:"todo" uuid:"6d6a6a9e-9732-4148-890b-77230b165b80"]
+---

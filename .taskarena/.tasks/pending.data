@@ -1,1 +1,2 @@
-[description:"- First-pass parsing of main.pipes files -> section-detection." entry:"1543478859" modified:"1543478866" start:"1543478866" status:"pending" tags:"todo" uuid:"4c44b145-4f9b-47ed-8286-782b1051690d"]
+[depends:"9c3b5205-f5ad-4c63-a3b9-7c5fe620451b,f8bd9c62-ac6d-4d95-b35c-f414f713e4af,6d6a6a9e-9732-4148-890b-77230b165b80" description:"- First-pass parsing of main.pipes files -> section-detection." entry:"1543478859" modified:"1543482301" status:"pending" tags:"todo" uuid:"4c44b145-4f9b-47ed-8286-782b1051690d"]
+[description:"- Indentation flat -> runnable file" entry:"1543482301" modified:"1543482304" start:"1543482304" status:"pending" tags:"todo" uuid:"6d6a6a9e-9732-4148-890b-77230b165b80"]
