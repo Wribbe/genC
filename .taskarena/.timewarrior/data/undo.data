@@ -86,3 +86,11 @@ txn:
   type: interval
   before: 
   after: {"start":"20181129T104001Z","tags":["- Add attributes in __init__ constructor.","todo"]}
+txn:
+  type: interval
+  before: {"start":"20181129T104001Z","tags":["- Add attributes in __init__ constructor.","todo"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181129T104001Z","end":"20181129T134048Z","tags":["- Add attributes in __init__ constructor.","todo"]}

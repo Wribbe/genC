@@ -5,4 +5,4 @@ inc 20181129T080746Z - 20181129T090253Z # "- First-pass parsing of main.pipes fi
 inc 20181129T090504Z - 20181129T090741Z # "- Indentation flat -> runnable file" todo
 inc 20181129T090801Z - 20181129T101008Z # "- First-pass parsing of main.pipes files -> section-detection." todo
 inc 20181129T101045Z - 20181129T103823Z # "- Make definitions into classes." todo
-inc 20181129T104001Z # "- Add attributes in __init__ constructor." todo
+inc 20181129T104001Z - 20181129T134048Z # "- Add attributes in __init__ constructor." todo

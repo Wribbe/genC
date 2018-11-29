@@ -5,6 +5,7 @@ import re
 import sys
 
 import click
+from . import utils
 
 
 def num_whitespaces(line):
@@ -47,7 +48,13 @@ def parse_defines(list_defines):
   """
   fmt = baseline_indent(fmt, strip_blank=True)
   for name, args in list_defines:
-    argnames = ['a','b','c']
+
+    # Get argument names.
+    argnames = [v.split('=')[0] for v in args.split(',')]
+    # Flatten any nestings.
+    argnames = flatten_nesting(','.join(argnames))
+
+    # Fill in class format and append to output.
     out.append(fmt.format(
       class_name = name,
       argument_names = ', '.join(argnames),
@@ -112,6 +119,7 @@ def parse_pipefile(pipefile):
   return baseline_indent(src.format(definitions=defines, pipelines=pipelines))
 
 def main(pipefile, out):
+
 
   src = """\
   #!/usr/bin/env python3
