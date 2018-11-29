@@ -13,7 +13,9 @@ import utils
 fend_schema = ".sql"
 fend_db = ".sqlite3"
 
+
 DIRS = utils.resolve_dirs_from_makefile()
+
 
 sql_main = """
 DROP TABLE IF EXISTS db;
@@ -38,7 +40,7 @@ class db_handler_class():
 
 
 handles = db_handler_class()
-path_db_main = "main{}".format(fend_db)
+path_db_main = os.path.join(DIRS["DIR_DBS"], "main{}".format(fend_db))
 
 
 def init_main():
