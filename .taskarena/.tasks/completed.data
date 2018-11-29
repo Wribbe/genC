@@ -1,3 +1,6 @@
+[description:"- Make stub classes with pass." end:"1543488000" entry:"1543487926" modified:"1543488000" status:"completed" tags:"todo" uuid:"6375d939-ee9c-41ad-845b-23af0293fe60"]
+[depends:"9c3b5205-f5ad-4c63-a3b9-7c5fe620451b,f8bd9c62-ac6d-4d95-b35c-f414f713e4af,6d6a6a9e-9732-4148-890b-77230b165b80" description:"- First-pass parsing of main.pipes files -> section-detection." end:"1543486208" entry:"1543478859" modified:"1543486208" status:"completed" tags:"todo" uuid:"4c44b145-4f9b-47ed-8286-782b1051690d"]
+[description:"- Indentation flat -> runnable file" end:"1543482461" entry:"1543482301" modified:"1543482461" status:"deleted" tags:"todo" uuid:"6d6a6a9e-9732-4148-890b-77230b165b80"]
 [description:"- Indentation static offset -> runnable file" end:"1543482304" entry:"1543482197" modified:"1543482304" status:"completed" tags:"todo" uuid:"9c3b5205-f5ad-4c63-a3b9-7c5fe620451b"]
 [description:"- Print correctly indented and runnable python file from aligned" end:"1543482282" entry:"1543482240" modified:"1543482282" status:"deleted" tags:"todo" uuid:"f8bd9c62-ac6d-4d95-b35c-f414f713e4af"]
 [description:"- Write mock main.pipes file" end:"1543478841" entry:"1543478832" modified:"1543478841" status:"completed" tags:"todo" uuid:"2c0763f4-1bf2-4b39-9d2c-e857ec720a19"]

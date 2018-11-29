@@ -2,4 +2,7 @@ inc 20181128T091542Z - 20181128T092548Z # "- Change db-name handle to not includ
 inc 20181128T093207Z - 20181128T101701Z # "- Read dirs from Makefile." feature
 inc 20181129T074320Z - 20181129T074446Z # "- Store main db in db dir." feature
 inc 20181129T080746Z - 20181129T090253Z # "- First-pass parsing of main.pipes files -> section-detection." todo
-inc 20181129T090504Z # "- Indentation flat -> runnable file" todo
+inc 20181129T090504Z - 20181129T090741Z # "- Indentation flat -> runnable file" todo
+inc 20181129T090801Z - 20181129T101008Z # "- First-pass parsing of main.pipes files -> section-detection." todo
+inc 20181129T101045Z - 20181129T103823Z # "- Make definitions into classes." todo
+inc 20181129T104001Z # "- Add attributes in __init__ constructor." todo

@@ -110,3 +110,77 @@ time 1543482304
 old [description:"- Indentation flat -> runnable file" entry:"1543482301" modified:"1543482301" status:"pending" tags:"todo" uuid:"6d6a6a9e-9732-4148-890b-77230b165b80"]
 new [description:"- Indentation flat -> runnable file" entry:"1543482301" modified:"1543482304" start:"1543482304" status:"pending" tags:"todo" uuid:"6d6a6a9e-9732-4148-890b-77230b165b80"]
 ---
+time 1543482461
+old [description:"- Indentation flat -> runnable file" entry:"1543482301" modified:"1543482304" start:"1543482304" status:"pending" tags:"todo" uuid:"6d6a6a9e-9732-4148-890b-77230b165b80"]
+new [description:"- Indentation flat -> runnable file" end:"1543482461" entry:"1543482301" modified:"1543482461" status:"deleted" tags:"todo" uuid:"6d6a6a9e-9732-4148-890b-77230b165b80"]
+---
+time 1543482481
+old [depends:"9c3b5205-f5ad-4c63-a3b9-7c5fe620451b,f8bd9c62-ac6d-4d95-b35c-f414f713e4af,6d6a6a9e-9732-4148-890b-77230b165b80" description:"- First-pass parsing of main.pipes files -> section-detection." entry:"1543478859" modified:"1543482301" status:"pending" tags:"todo" uuid:"4c44b145-4f9b-47ed-8286-782b1051690d"]
+new [depends:"9c3b5205-f5ad-4c63-a3b9-7c5fe620451b,f8bd9c62-ac6d-4d95-b35c-f414f713e4af,6d6a6a9e-9732-4148-890b-77230b165b80" description:"- First-pass parsing of main.pipes files -> section-detection." entry:"1543478859" modified:"1543482481" start:"1543482481" status:"pending" tags:"todo" uuid:"4c44b145-4f9b-47ed-8286-782b1051690d"]
+---
+time 1543485180
+new [description:"- Correctly parse defines containing other defines." entry:"1543485180" modified:"1543485180" status:"pending" tags:"todo" uuid:"5a0e0a76-1fa4-4308-9ff1-3f416d73fefb"]
+---
+time 1543486208
+old [depends:"9c3b5205-f5ad-4c63-a3b9-7c5fe620451b,f8bd9c62-ac6d-4d95-b35c-f414f713e4af,6d6a6a9e-9732-4148-890b-77230b165b80" description:"- First-pass parsing of main.pipes files -> section-detection." entry:"1543478859" modified:"1543482481" start:"1543482481" status:"pending" tags:"todo" uuid:"4c44b145-4f9b-47ed-8286-782b1051690d"]
+new [depends:"9c3b5205-f5ad-4c63-a3b9-7c5fe620451b,f8bd9c62-ac6d-4d95-b35c-f414f713e4af,6d6a6a9e-9732-4148-890b-77230b165b80" description:"- First-pass parsing of main.pipes files -> section-detection." end:"1543486208" entry:"1543478859" modified:"1543486208" status:"completed" tags:"todo" uuid:"4c44b145-4f9b-47ed-8286-782b1051690d"]
+---
+time 1543486228
+new [description:"- Make definitions into classes." entry:"1543486228" modified:"1543486228" status:"pending" tags:"todo" uuid:"94ce6c34-fa4b-4cea-96ba-818f5f3b4dc8"]
+---
+time 1543486235
+new [description:"- Make pipelines into funcitons." entry:"1543486235" modified:"1543486235" status:"pending" tags:"todo" uuid:"98a349f4-4cfa-4fed-86e1-9edd05372c63"]
+---
+time 1543486241
+old [description:"- Make pipelines into funcitons." entry:"1543486235" modified:"1543486235" status:"pending" tags:"todo" uuid:"98a349f4-4cfa-4fed-86e1-9edd05372c63"]
+new [description:"- Make pipelines into methods." entry:"1543486235" modified:"1543486241" status:"pending" tags:"todo" uuid:"98a349f4-4cfa-4fed-86e1-9edd05372c63"]
+---
+time 1543486245
+old [description:"- Make definitions into classes." entry:"1543486228" modified:"1543486228" status:"pending" tags:"todo" uuid:"94ce6c34-fa4b-4cea-96ba-818f5f3b4dc8"]
+new [description:"- Make definitions into classes." entry:"1543486228" modified:"1543486245" start:"1543486245" status:"pending" tags:"todo" uuid:"94ce6c34-fa4b-4cea-96ba-818f5f3b4dc8"]
+---
+time 1543487903
+old [description:"- Make definitions into classes." entry:"1543486228" modified:"1543486245" start:"1543486245" status:"pending" tags:"todo" uuid:"94ce6c34-fa4b-4cea-96ba-818f5f3b4dc8"]
+new [description:"- Make definitions into classes." end:"1543487903" entry:"1543486228" modified:"1543487903" status:"completed" tags:"todo" uuid:"94ce6c34-fa4b-4cea-96ba-818f5f3b4dc8"]
+---
+time 1543487926
+new [description:"-" entry:"1543487926" modified:"1543487926" status:"pending" tags:"todo" uuid:"6375d939-ee9c-41ad-845b-23af0293fe60"]
+---
+time 1543487926
+old [description:"- Make definitions into classes." end:"1543487903" entry:"1543486228" modified:"1543487903" status:"completed" tags:"todo" uuid:"94ce6c34-fa4b-4cea-96ba-818f5f3b4dc8"]
+new [depends:"6375d939-ee9c-41ad-845b-23af0293fe60" description:"- Make definitions into classes." entry:"1543486228" modified:"1543487926" status:"pending" tags:"todo" uuid:"94ce6c34-fa4b-4cea-96ba-818f5f3b4dc8"]
+---
+time 1543487946
+old [description:"-" entry:"1543487926" modified:"1543487926" status:"pending" tags:"todo" uuid:"6375d939-ee9c-41ad-845b-23af0293fe60"]
+new [description:"- Make stub classes with pass." entry:"1543487926" modified:"1543487946" status:"pending" tags:"todo" uuid:"6375d939-ee9c-41ad-845b-23af0293fe60"]
+---
+time 1543487946
+new [description:"- Add variables in constructor." entry:"1543487946" modified:"1543487946" status:"pending" tags:"todo" uuid:"e94dca52-f0a8-4d22-a35a-a3c393c97ba8"]
+---
+time 1543487946
+old [depends:"6375d939-ee9c-41ad-845b-23af0293fe60" description:"- Make definitions into classes." entry:"1543486228" modified:"1543487926" status:"pending" tags:"todo" uuid:"94ce6c34-fa4b-4cea-96ba-818f5f3b4dc8"]
+new [depends:"6375d939-ee9c-41ad-845b-23af0293fe60,e94dca52-f0a8-4d22-a35a-a3c393c97ba8" description:"- Make definitions into classes." entry:"1543486228" modified:"1543487946" status:"pending" tags:"todo" uuid:"94ce6c34-fa4b-4cea-96ba-818f5f3b4dc8"]
+---
+time 1543487951
+old [description:"- Add variables in constructor." entry:"1543487946" modified:"1543487946" status:"pending" tags:"todo" uuid:"e94dca52-f0a8-4d22-a35a-a3c393c97ba8"]
+new [description:"- Add variables in __init__ constructor." entry:"1543487946" modified:"1543487951" status:"pending" tags:"todo" uuid:"e94dca52-f0a8-4d22-a35a-a3c393c97ba8"]
+---
+time 1543487991
+old [description:"- Add variables in __init__ constructor." entry:"1543487946" modified:"1543487951" status:"pending" tags:"todo" uuid:"e94dca52-f0a8-4d22-a35a-a3c393c97ba8"]
+new [description:"- Add attributes in __init__ constructor." entry:"1543487946" modified:"1543487991" status:"pending" tags:"todo" uuid:"e94dca52-f0a8-4d22-a35a-a3c393c97ba8"]
+---
+time 1543487991
+new [description:"- Add attributes to class namespace." entry:"1543487991" modified:"1543487991" status:"pending" tags:"todo" uuid:"2ad675da-64fb-443d-879f-02a2dd8ce659"]
+---
+time 1543487991
+old [depends:"6375d939-ee9c-41ad-845b-23af0293fe60,e94dca52-f0a8-4d22-a35a-a3c393c97ba8" description:"- Make definitions into classes." entry:"1543486228" modified:"1543487946" status:"pending" tags:"todo" uuid:"94ce6c34-fa4b-4cea-96ba-818f5f3b4dc8"]
+new [depends:"6375d939-ee9c-41ad-845b-23af0293fe60,e94dca52-f0a8-4d22-a35a-a3c393c97ba8,2ad675da-64fb-443d-879f-02a2dd8ce659" description:"- Make definitions into classes." entry:"1543486228" modified:"1543487991" status:"pending" tags:"todo" uuid:"94ce6c34-fa4b-4cea-96ba-818f5f3b4dc8"]
+---
+time 1543488000
+old [description:"- Make stub classes with pass." entry:"1543487926" modified:"1543487946" status:"pending" tags:"todo" uuid:"6375d939-ee9c-41ad-845b-23af0293fe60"]
+new [description:"- Make stub classes with pass." end:"1543488000" entry:"1543487926" modified:"1543488000" status:"completed" tags:"todo" uuid:"6375d939-ee9c-41ad-845b-23af0293fe60"]
+---
+time 1543488001
+old [description:"- Add attributes in __init__ constructor." entry:"1543487946" modified:"1543487991" status:"pending" tags:"todo" uuid:"e94dca52-f0a8-4d22-a35a-a3c393c97ba8"]
+new [description:"- Add attributes in __init__ constructor." entry:"1543487946" modified:"1543488001" start:"1543488001" status:"pending" tags:"todo" uuid:"e94dca52-f0a8-4d22-a35a-a3c393c97ba8"]
+---

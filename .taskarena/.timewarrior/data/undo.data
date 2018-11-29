@@ -50,3 +50,39 @@ txn:
   type: interval
   before: 
   after: {"start":"20181129T090504Z","tags":["- Indentation flat -> runnable file","todo"]}
+txn:
+  type: interval
+  before: {"start":"20181129T090504Z","tags":["- Indentation flat -> runnable file","todo"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181129T090504Z","end":"20181129T090741Z","tags":["- Indentation flat -> runnable file","todo"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181129T090801Z","tags":["- First-pass parsing of main.pipes files -> section-detection.","todo"]}
+txn:
+  type: interval
+  before: {"start":"20181129T090801Z","tags":["- First-pass parsing of main.pipes files -> section-detection.","todo"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181129T090801Z","end":"20181129T101008Z","tags":["- First-pass parsing of main.pipes files -> section-detection.","todo"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181129T101045Z","tags":["- Make definitions into classes.","todo"]}
+txn:
+  type: interval
+  before: {"start":"20181129T101045Z","tags":["- Make definitions into classes.","todo"]}
+  after: 
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181129T101045Z","end":"20181129T103823Z","tags":["- Make definitions into classes.","todo"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20181129T104001Z","tags":["- Add attributes in __init__ constructor.","todo"]}

@@ -10,6 +10,11 @@
 == TODO || +todo ==
 
 * [X] - Write mock main.pipes file #2c0763f4
-* [-] - First-pass parsing of main.pipes files -> section-detection.  #4c44b145
+* [X] - First-pass parsing of main.pipes files -> section-detection.  #4c44b145
   * [X] - Indentation static offset -> runnable file #9c3b5205
-  * [S] - Indentation flat -> runnable file  #6d6a6a9e
+* [ ] - Make definitions into classes.  #94ce6c34
+  * [X] - Make stub classes with pass.  #6375d939
+  * [S] - Add attributes in __init__ constructor.  #e94dca52
+  * [ ] - Add attributes to class namespace.  #2ad675da
+* [ ] - Make pipelines into methods.  #98a349f4
+* [ ] - Correctly parse defines containing other defines.  #5a0e0a76
