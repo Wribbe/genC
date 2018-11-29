@@ -3,3 +3,5 @@ gen
 *.sqlite3
 dbs
 **/__pycache__
+genC.virtualenv
+**.egg-info
